@@ -9,7 +9,7 @@ let songUrl = []
 
 
 async function getSongs() {
-    let songs = await fetch("http://127.0.0.1:3000/songs/")
+    let songs = await fetch("/songs/")
     let response = await songs.text()
 
     let div = document.createElement('div')
