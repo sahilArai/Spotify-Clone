@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Spotify</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="leftTop">
+                <ul>
+                    <li class="closeBtn"><img src="assets/close.svg" alt="close" class="invert"></li>
+                    <li><img src="assets/home.png" alt="" class="homeImage">Home</li>
+                    <li><img src="assets/search.png" alt="" class="homeImage">Search</li>
+                </ul>
+            </div>
+            <div class="leftBottum">
+                <div class="library">
+                    <img src="assets/albums.png" alt="" class="invert libraryImg">
+                    <h4>Your Library</h4>
+                </div>
+                <ul class="songsList">
+                    <!-- <li class="songs">
+                        <img src="assets/music (1).png " class="musicIcon">
+                        <span>song name</span>
+                        <img src="assets/play (2).png" class="songsPlayBtn">
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="right">
+            <div class="navBar">
+                <div class="navLeft">
+                    <button><</button>
+                    <button>></button>
+                </div>
+                <div class="hamburger">
+                    <img src="assets/hamburger.svg" alt="=" class="invert" >
+                </div>
+                <div class="navRight">
+                    <button id="signIn">Sign In</button>
+                    <button id="logIn">Log In</button>
+                </div>
+            </div>
+
+            <div class="rightBottum">
+                <div class="rightBottumBtns">
+                    <button>All</button>
+                    <button>Play Lists</button>
+                </div>
+
+                <div class="cardSec">
+                    <div class="card">
+                        <img  src="https://mosaic.scdn.co/300/ab67616d00001e024718e2b124f79258be7bc452ab67616d00001e025675e83f707f1d7271e5cf8aab67616d00001e026ca5c90113b30c3c43ffb8f4ab67616d00001e02fc915b69600dce2991a61f13" class="cardImg">
+                        <h2 class="cardHeading">My songs</h2>
+                        <p class="cardPara">Lorem ipsum dolor sit amet, consectetur adipi</p>
+                        <button class="cardPlayBtn"><img src="assets/play (1).png" alt="" srcset=""></button>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="playBar">
+                <div class="songInfoSec">
+                    <!-- <div class="songInfoInnerDiv">
+                        <img src="assets/music (1).png " id="musicIcon">
+                        <p>song name </p>                   
+                    </div> -->
+                </div>
+                <div class="playBarMidSec">
+                    <div class="playBarButtonsSec">
+                        <img src="assets/previous (1).png" id="previous">
+                        <img src="assets/pause.png" id="playPause">
+                        <img src="assets/previous (1).png" id="next">
+                    </div>
+                    <div class="rangeSec">
+                        <span id="durationTime">00:00</span>
+                        <input type="range" name="" id="range" value="0" >
+                        <span id="fullDuration">00:00</span>
+                    </div>                    
+              </div>
+              <div class="volumSec">
+                <img src="assets/volume.png" id="volumeBtn">
+                <input type="range" id="volumeRange">
+              </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
