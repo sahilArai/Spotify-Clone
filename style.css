@@ -248,7 +248,7 @@
     left: 0;
     display: flex;
     justify-content: space-around;
-    /* opacity: 0; */
+    opacity: 0;
 }
 .songInfoSec{
     display: flex;
